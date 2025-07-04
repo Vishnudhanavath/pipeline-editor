@@ -51,5 +51,10 @@ A visual editor for designing directed acyclic graphs (DAGs) and pipelines, buil
 npm install
 ```
 
-
+### screenshot
+![image alt](https://github.com/Vishnudhanavath/pipeline-editor/blob/5a4ef8f64bb217ca608e51b7b2b5bb6d0a20ad64/image%201.png)
+![image alt](https://github.com/Vishnudhanavath/pipeline-editor/blob/5a4ef8f64bb217ca608e51b7b2b5bb6d0a20ad64/img%202.png)
+![image alt](https://github.com/Vishnudhanavath/pipeline-editor/blob/5a4ef8f64bb217ca608e51b7b2b5bb6d0a20ad64/image%203.png)
+## invalid 
+![image alt](https://github.com/Vishnudhanavath/pipeline-editor/blob/5a4ef8f64bb217ca608e51b7b2b5bb6d0a20ad64/image4.png)
 
