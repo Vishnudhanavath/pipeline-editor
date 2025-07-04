@@ -1,12 +1,55 @@
-# React + Vite
+# Pipeline Editor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visual editor for designing directed acyclic graphs (DAGs) and pipelines, built with [React Flow](https://reactflow.dev/).
 
-Currently, two official plugins are available:
+🚀 **Live Demo:** [pipelineeditorbyvishnu.netlify.app](https://pipelineeditorbyvishnu.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ **Add custom nodes**  
+- Click **“Add Node”** to create a new node in the graph.
+- Nodes have custom visuals and ports (source and target handles).
+
+✅ **Connect nodes**  
+- Drag a connection from a node’s source handle to another node’s target handle.
+- Cycles are disallowed to keep the graph a valid DAG.
+
+✅ **Delete nodes and edges**  
+- Right-click on a node or edge to delete it.
+- Press `Delete` key to remove selected nodes or edges.
+
+✅ **Auto Layout**  
+- Click **“Auto Layout”** to neatly arrange nodes using Dagre layout.
+
+✅ **Live DAG Validation**  
+- App automatically checks:
+  - No cycles exist in the graph.
+  - All nodes are connected to at least one edge.
+
+✅ **Custom connection lines**  
+- Connection lines turn green or red depending on whether a connection is valid.
+
+---
+
+## Tech Stack
+
+- **React**  
+- **React Flow**
+- **Dagre.js** (for automatic layout)
+- **Vite** (build tool)
+- **Netlify** (deployment)
+
+---
+
+## Local Development
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+
+
